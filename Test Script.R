@@ -8,7 +8,7 @@ tutorial_data$age <- as.numeric(tutorial_data$age)
 is.numeric(tutorial_data$age)
 
 # After you’re done, make a commit.
-
+# I made a commit.
 
 # Clean the sex variable and change it to factor (1 = Male and 2 = Female).
 
