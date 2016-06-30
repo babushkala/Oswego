@@ -16,11 +16,13 @@ tutorial_data$sex[17] <- 1
 factor(tutorial_data$sex)
 
 # Then, make a commit.
-
+# I made another commit.
 
 # Remove all of the rows that have an NA in the onsettime column.
+tutorial_data_no_na <- subset(tutorial_data, !is.na(tutorial_data$onsettime))
 
 # Then, make a commit.
 
 # After you’ve finished making these three commits, 
-# push your changes to Github. Check your GitHub repository to make sure that the changes have been applied.
+# push your changes to Github. Check your GitHub repository to make 
+# sure that the changes have been applied.
