@@ -2,6 +2,7 @@ library(readr)
 tutorial_data <- read.csv("OswegoTutorial.csv")
 names(tutorial_data)
 
+# PART THREE
 # Clean the age variable. Make sure that it reads as a number and
 # that you don’t lose any numbers in the conversion process!
 tutorial_data$age <- as.numeric(tutorial_data$age)
@@ -11,6 +12,8 @@ is.numeric(tutorial_data$age)
 # I made a commit.
 
 # Clean the sex variable and change it to factor (1 = Male and 2 = Female).
+tutorial_data$sex[17] <- 1
+factor(tutorial_data$sex)
 
 # Then, make a commit.
 
